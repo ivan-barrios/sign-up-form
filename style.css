@@ -1,0 +1,29 @@
+::root{
+}
+
+
+body{
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+
+.left-container{
+    background: #fff url(../sign-up-form/images/lifeguard.jpg) no-repeat center;
+    height: 100vh;
+    width:35vw;
+}
+
+.inside-img{
+    position: relative;
+    top:30%;
+    font-size: 3vw;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(0,0,0,.5);
+    height: 10vh;
+}
+
+img{
+}
