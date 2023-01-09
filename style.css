@@ -77,7 +77,7 @@ fieldset > div{
 }
 
 input{
-    height: 2rem;
+    height: 1.5rem;
     border-radius: 16px;
     width: 100%;
     font-size: 1rem;
@@ -89,9 +89,7 @@ input:invalid{
 input:valid{
     border-color: green;
 }
-input:focus{
-    border-color: white;
-}
+
 
 form > button{
     position: relative;
@@ -124,3 +122,9 @@ form > button:hover{
 }
 
 /* Right Side Style Ends */
+
+/* Error msg */
+#validate-status{
+    color:red;
+    margin-left: 1.5rem;
+}
